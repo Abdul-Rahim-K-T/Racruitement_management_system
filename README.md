@@ -5,9 +5,13 @@ Task
 Create a backend server for a Recruitment Management System with the following requirements:
 
 Users can create their profile and upload Resumes (only PDF and DOCX formats allowed).
+
 Admin users can create job openings.
+
 Admin users can view all uploaded resumes and extracted data of applicants.
+
 Applicants can view job openings and apply to them.
+
 APIs
 POST /signup: Create a user profile.
 POST /login: Authenticate users and return a JWT token.
